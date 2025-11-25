@@ -1,0 +1,11 @@
+# Core dependencies for the Magdad project
+ultralytics
+opencv-python
+numpy
+matplotlib
+pandas
+
+# NOTE: Install PyTorch separately according to your platform (CPU vs CUDA).
+# See https://pytorch.org/get-started/locally/ for the recommended install command.
+# Example (CPU-only):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
