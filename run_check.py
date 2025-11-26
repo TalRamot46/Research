@@ -41,7 +41,7 @@ def run_with_api(model: str, source: str, save: bool, show: bool) -> int:
 
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(description="Cross-platform runner for check_live_cam.sh")
-    p.add_argument("--model", default="results/pendulum_yolo7/weights/best.pt")
+    p.add_argument("--model", default="results/pendulum_yolo73/weights/best.pt")
     p.add_argument("--source", default="1")
     p.add_argument("--save", dest="save", action="store_true", default=True)
     p.add_argument("--no-save", dest="save", action="store_false")

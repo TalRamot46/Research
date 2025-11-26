@@ -7,7 +7,7 @@ def define_yolo_model():
     # 2. Train on your dataset
     results = model.train(
         data="pendulum_dataset\pendulum.yaml",  # path to dataset YAML
-        epochs=1,           # try 30-100
+        epochs=100,           # try 30-100
         imgsz=640,           # image size
         batch=16,            # reduce if running out of memory
         project="runs_pendulum",
