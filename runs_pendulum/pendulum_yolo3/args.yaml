@@ -1,12 +1,12 @@
 task: detect
 mode: train
 model: yolo11n.pt
-data: pendulum_dataset/pendulum.yaml
-epochs: 1
+data: pendulum_yolo/pendulum_dataset/pendulum.yaml
+epochs: 10
 time: null
 patience: 100
 batch: 16
-imgsz: 640
+imgsz: 1080
 save: true
 save_period: -1
 cache: false
@@ -103,4 +103,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: C:\Users\TLP-001\Documents\GitHub\Magdad\runs_pendulum\pendulum_yolo3
+save_dir: C:\Users\TLP-001\Documents\GitHub\Magdad1\runs_pendulum\pendulum_yolo3
