@@ -1,0 +1,7 @@
+#create a yaml file for the pendulum dataset
+#pendulum.yaml
+train: images/train
+val: images/val
+nc: 1
+names: ['pendulum']
+imagesize: 1920
